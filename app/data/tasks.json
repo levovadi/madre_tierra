@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Riego por goteo",
+    "description": "Riego eficiente para mantener humedad óptima.",
+    "season": "Primavera",
+    "frequency": "Diaria",
+    "image": "https://liveplantbiotech.com/wp-content/uploads/2024/06/Riego-por-Goteo.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Fertilización nitrogenada",
+    "description": "Aplicación de fertilizantes ricos en nitrógeno.",
+    "season": "Primavera",
+    "frequency": "Semanal",
+    "image": "https://www.silosdelcinca.com/wp-content/uploads/fertilizacion-nitrogenada-del-cereal-1024x683.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Control de plagas",
+    "description": "Inspección y control de plagas comunes.",
+    "season": "Primavera",
+    "frequency": "Quincenal",
+    "image": "https://www.entoma.org/wp-content/uploads/2024/01/Aplicacion-1024x576.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Poda de formación",
+    "description": "Poda para mantener estructura deseada en cultivos.",
+    "season": "Primavera",
+    "frequency": "Mensual",
+    "image": "https://synergynuts.upct.es/wp-content/uploads/2024/05/PFSI-aLmendro-superintensivo-Toledo-01-scaled.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Monitoreo de humedad",
+    "description": "Uso de sensores para verificar niveles de humedad.",
+    "season": "Primavera",
+    "frequency": "Diaria",
+    "image": "https://www.elion.es/wp-content/uploads/2020/04/rfid-invernaderos.jpg"
+  }
+]
