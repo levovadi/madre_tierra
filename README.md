@@ -38,15 +38,15 @@ Filtrado funcional por nombre y fecha.
 
 Compatibilidad visual entre plataformas.
 
-app/
-├── components/         → Componentes reutilizables (TaskCard, etc.)
-├── data/               → Archivo tasks.json con datos base
-├── features/           → Vistas agrupadas por funcionalidad
-│   ├── home/           → HomeScreen (lista y filtros)
-│   ├── tasks/          → Detalle de tareas
-│   └── profile/        → Historial de tareas completadas
-├── hooks/              → Custom hooks como useFilteredTasks y useCompletedTasks
-└── services/           → Lógica de SQLite
+
+| Librería                                 | Uso                  | Justificación                                                                           |
+| ---------------------------------------- | -------------------- | --------------------------------------------------------------------------------------- |
+| `expo-sqlite`                            | Almacenamiento local | Permite guardar y consultar el historial de tareas completadas sin conexión a internet. |
+| `react-native-safe-area-context`         | Diseño adaptable     | Garantiza compatibilidad con zonas seguras en iOS (notch, isla dinámica).               |
+| `@react-native-community/datetimepicker` | Selección de fecha   | Para filtrar tareas completadas por fecha en la pantalla de historial.                  |
+| `expo-router`                            | Navegación           | Manejo de rutas tipo archivo para organización modular y escalabilidad.                 |
+| `expo/vector-icons`                      | Iconos               | Uso de iconos como `check-circle` para indicar tareas completadas.                      |
+
 
 
 ## 🚀 Instrucciones para correr el proyecto
@@ -56,13 +56,6 @@ app/
 ```bash
 npm install
 
-para iniciar el proyecto: 
+para iniciar el proyecto:
 npx expo start
 
-| Librería                                 | Uso                  | Justificación                                                                           |
-| ---------------------------------------- | -------------------- | --------------------------------------------------------------------------------------- |
-| `expo-sqlite`                            | Almacenamiento local | Permite guardar y consultar el historial de tareas completadas sin conexión a internet. |
-| `react-native-safe-area-context`         | Diseño adaptable     | Garantiza compatibilidad con zonas seguras en iOS (notch, isla dinámica).               |
-| `@react-native-community/datetimepicker` | Selección de fecha   | Para filtrar tareas completadas por fecha en la pantalla de historial.                  |
-| `expo-router`                            | Navegación           | Manejo de rutas tipo archivo para organización modular y escalabilidad.                 |
-| `expo/vector-icons`                      | Iconos               | Uso de iconos como `check-circle` para indicar tareas completadas.                      |
